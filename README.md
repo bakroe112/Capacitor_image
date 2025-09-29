@@ -1,19 +1,27 @@
-<<<<<<< HEAD
-# React + Vite
+# 📸 Capacitor Photo Journal
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Ứng dụng **Photo Journal** được xây dựng bằng **React (Vite)** và **Capacitor**, có thể chạy trên **Android/iOS/Web**.  
+Dự án này minh họa cách sử dụng các plugin cơ bản của Capacitor để chụp ảnh, lưu trữ, hiển thị và chia sẻ.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ✨ Tính năng chính
+- Chụp ảnh từ camera (`@capacitor/camera`)
+- Lưu thông tin ảnh (đường dẫn, tiêu đề, ngày chụp) vào storage (`@capacitor/preferences`)
+- Hiển thị ảnh dạng gallery (grid responsive)
+- Xem chi tiết một ảnh với tiêu đề
+- Sửa/xoá tiêu đề ảnh
+- Chia sẻ ảnh qua ứng dụng khác (`@capacitor/share`)
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🛠️ Công nghệ sử dụng
+- **React + Vite**
+- **Capacitor Core/CLI**
+- **Capacitor Plugins:**  
+  - `@capacitor/camera`  
+  - `@capacitor/preferences`  
+  - `@capacitor/filesystem`  
+  - `@capacitor/share`
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-=======
 # By : Le Thi Thu Huong - 22IT127
