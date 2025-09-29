@@ -1,0 +1,83 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #fafafa;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.app-container {
+  padding: 20px;
+}
+
+.add-photo input {
+  padding: 8px;
+  margin-right: 8px;
+}
+
+button {
+  padding: 8px 12px;
+  margin: 4px;
+  border: none;
+  background: #007aff;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #0051a8;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+  gap: 12px;
+  margin-top: 20px;
+}
+
+.photo-card {
+  background: white;
+  padding: 8px;
+  border-radius: 8px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.photo-card:hover {
+  transform: scale(1.05);
+}
+
+.photo-card img {
+  width: 100%;
+  border-radius: 6px;
+}
+
+.detail {
+  margin-top: 20px;
+}
+
+.detail-img {
+  max-width: 90%;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.input-edit,
+.btn-edit {
+  height: 36px; 
+  padding: 0 10px;
+  font-size: 14px;
+  border-radius: 6px;
+}
+.input-edit {
+  border: 1px solid #ccc;
+  margin-right: 6px;
+}
+.btn-edit {
+  background: #007aff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
