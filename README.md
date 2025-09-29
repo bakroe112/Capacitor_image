@@ -16,5 +16,4 @@ The React Compiler is not enabled on this template. To add it, see [this documen
 
 If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
 =======
-# Capacitor_image
->>>>>>> f0ec10344d6f1b0ed164224f9beb1009d57e3767
+# By : Le Thi Thu Huong - 22IT127
